@@ -97,3 +97,13 @@ Repeat as needed to generate more telemetry data.
 ---
 
 Enjoy exploring observability with LGTM and OpenTelemetry!
+---
+
+## Architecture Diagram
+
+```mermaid
+flowchart LR
+    A[Demo Application] --> B[OpenTelemetry Collector]
+    B --> C[OTLP Receiver]
+    C --> D[Prometheus]
+```

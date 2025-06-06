@@ -5,6 +5,18 @@ This guide walks you through running the full LGTM (Loki, Grafana, Tempo, Mimir)
 
 ---
 
+# Option 1
+
+## 1. Run docker compose to start LGTM stack and OpenTelemetry Collector
+
+```sh
+docker compose up -d
+```
+
+Or start each statck separately
+
+# Option 2
+
 ## 1. Start the LGTM Stack
 
 Run the main LGTM stack using Docker Compose:

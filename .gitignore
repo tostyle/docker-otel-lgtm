@@ -12,3 +12,4 @@ grafana-opentelemetry*.jar
 build/
 otel-lgtm/
 
+examples/dotnet/appsettings copy.json

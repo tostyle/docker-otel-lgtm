@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   lgtm:
     image: docker.io/grafana/otel-lgtm:0.11.4
@@ -24,7 +22,7 @@ services:
     stdin_open: true
     restart: unless-stopped
     networks:
-      - observability
+      - observability-demo
 
   otel-collector:
     image: otel/opentelemetry-collector-contrib
